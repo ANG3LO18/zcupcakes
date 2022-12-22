@@ -1,0 +1,24 @@
+.header3{
+    min-height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/cupcake.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box3{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box3 h1{
+    font-size: 62px;
+}
+
+/* featured Products */

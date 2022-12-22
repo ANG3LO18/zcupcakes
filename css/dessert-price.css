@@ -1,0 +1,78 @@
+.header8{
+    min-height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/cupcake.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box8{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box8 h1{
+    font-size: 62px;
+}
+
+/* dessert price section */
+
+body{
+    display: block;
+}
+
+.form{
+    width: 100%;
+    padding: 20px 10vw;
+}
+
+.heading2{
+    text-transform: capitalize;
+    font-size: 500;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-bottom: 40px;
+}
+
+/* dessert price header section */
+
+.cta{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/headerBcg2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0 ;
+}
+
+.cta h2{
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 28px;
+}
+
+.cta p{
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 23px;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+       font-size: 20px;
+    }
+}
